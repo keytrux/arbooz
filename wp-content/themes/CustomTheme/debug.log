@@ -1,0 +1,132 @@
+[13-May-2025 14:09:48 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 1
+    [phone] => 2
+    [email] => vika20072003@mail.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:24:31 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 1
+    [phone] => 2
+    [email] => vika207203@yandex.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:25:19 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 1
+    [phone] => 2
+    [email] => vika207203@yandex.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:25:19 UTC] PHP Warning:  Undefined array key "services" in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/themes/CustomTheme/functions.php on line 96
+[13-May-2025 14:25:19 UTC] PHP Fatal error:  Uncaught TypeError: implode(): Argument #1 ($array) must be of type array, string given in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/themes/CustomTheme/functions.php:96
+Stack trace:
+#0 /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/themes/CustomTheme/functions.php(96): implode(', ', NULL)
+#1 /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php(310): handle_send_email('')
+#2 /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php(334): WP_Hook->apply_filters('', Array)
+#3 /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/plugin.php(517): WP_Hook->do_action(Array)
+#4 /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-admin/admin-ajax.php(188): do_action('wp_ajax_send_ca...')
+#5 {main}
+  thrown in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/themes/CustomTheme/functions.php on line 96
+[13-May-2025 14:27:09 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 1
+    [phone] => 2
+    [email] => vika207203@yandex.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:28:17 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 1
+    [phone] => 2
+    [email] => vika207203@yandex.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:35:09 UTC] Данные из формы: Array
+(
+    [action] => send_calculator_email
+    [security] => fde470bf6e
+    [inn] => 111111111111
+    [phone] => 89278994580
+    [email] => vika207203@yandex.ru
+    [region] => Ленинградская область
+    [volume] => 200
+    [fuelType] => Бензин
+    [brand] => Роснефть
+    [promoDiscount] => 20
+    [tariff] => Избранный
+    [cost_monthly] => 25010
+    [total_discount] => 25
+    [monthly_savings] => 25010
+    [annual_savings] => 300120
+)
+
+[13-May-2025 14:36:22 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:36:25 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:36:28 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:36:44 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:56:18 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:56:20 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:56:22 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60
+[13-May-2025 14:56:27 UTC] PHP Warning:  Undefined array key 3 in /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/duplicator/classes/ui/class.ui.screen.base.php on line 60

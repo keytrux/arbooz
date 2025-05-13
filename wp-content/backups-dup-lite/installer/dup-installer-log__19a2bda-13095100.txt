@@ -1,0 +1,1549 @@
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-0 START @ 09:52:06
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+PACKAGE INFO________ ORIGINAL SERVER                        |CURRENT SERVER
+OS__________________: WINNT                                 |Linux
+PHP VERSION_________: 8.1.9                                 |8.2.28
+********************************************************************************
+CURRENT SERVER INFO
+PHP_________________: 8.2.28 | SAPI: cgi-fcgi
+PHP MEMORY__________: 4294967296 | SUHOSIN: disabled
+ARCHITECTURE________: 64-bit
+SERVER______________: Apache/2.4.6 (CentOS) OpenSSL/1.0.2k-fips mod_fcgid/2.3.9 Phusion_Passenger/6.0.22
+DOC ROOT____________: "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+REQUEST URL_________: "http://arbooz.keytrux.ru"
+********************************************************************************
+OVERWRITE PARAMS
+ *** FROM PACKAGE
+PARAM SET KEY[blogname]
+********************************************************************************
+MAINTENANCE MODE DISABLE
+INSTALLER INFO
+
+TEMPLATE____________: "base"
+SECURE MODE_________: "none"
+URL PLUGINS_________: http://arbooz/wp-content/plugins
+VALIDATE ON START___: "normal"
+PATH_NEW____________: "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+URL_NEW_____________: "http://arbooz.keytrux.ru"
+********************************************************************************
+ARCHIVE INFO
+
+ARCHIVE NAME________: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wppack_[HASH]_20250513095100_archive.zip"
+ARCHIVE SIZE________: 35.1MB
+CREATED_____________: 2025-05-13 09:51:00
+WP VERSION__________: 6.3.1
+DUP VERSION_________: 1.5.12
+LICENSE_____________: Free version
+DB VERSION__________: 8.0.30
+DB FILE SIZE________: 1.45MB
+DB TABLES___________: 22
+DB ROWS_____________: 446
+URL HOME____________: http://arbooz
+URL CORE____________: http://arbooz
+URL CONTENT_________: http://arbooz/wp-content
+URL UPLOAD__________: http://arbooz/wp-content/uploads
+URL PLUGINS_________: http://arbooz/wp-content/plugins
+URL MU PLUGINS______: http://arbooz/wp-content/mu-plugins
+URL THEMES__________: http://arbooz/wp-content/themes
+PATH HOME___________: D:/OSPanel/domains/arbooz
+PATH ABS____________: D:/OSPanel/domains/arbooz
+PATH WPCONFIG_______: D:/OSPanel/domains/arbooz
+PATH WPCONTENT______: D:/OSPanel/domains/arbooz/wp-content
+PATH UPLOADS________: D:/OSPanel/domains/arbooz/wp-content/uploads
+PATH PLUGINS________: D:/OSPanel/domains/arbooz/wp-content/plugins
+PATH MUPLUGINS______: D:/OSPanel/domains/arbooz/wp-content/mu-plugins
+PATH THEMES_________: D:/OSPanel/domains/arbooz/wp-content/themes
+
+SUBSITES
+SUBSITE [ID:   1] "arbooz/"
+
+PLUGINS
+PLUGIN [SLUG:acf-archive/acf-archive.php                       ][ON:true ]  ACF Archive
+PLUGIN [SLUG:acf-columns/acf-column.php                        ][ON:true ]  ACF Columns
+PLUGIN [SLUG:admin-menu-editor/menu-editor.php                 ][ON:true ]  Admin Menu Editor
+PLUGIN [SLUG:ACF-child-category-field/acf-child-category-field.php][ON:true ]  Advanced Custom Fields: Child Category selector Field
+PLUGIN [SLUG:advanced-custom-fields-table-field/acf-table.php  ][ON:true ]  Advanced Custom Fields: Table Field
+PLUGIN [SLUG:acf-theme-code/acf_theme_code.php                 ][ON:true ]  Advanced Custom Fields: Theme Code
+PLUGIN [SLUG:advanced-custom-fields-pro/acf.php                ][ON:true ]  Advanced Custom Fields PRO
+PLUGIN [SLUG:tinymce-advanced/tinymce-advanced.php             ][ON:true ]  Advanced Editor Tools
+PLUGIN [SLUG:classic-editor/classic-editor.php                 ][ON:true ]  Classic Editor
+PLUGIN [SLUG:contact-form-7/wp-contact-form-7.php              ][ON:true ]  Contact Form 7
+PLUGIN [SLUG:cf7-phone-mask-field/cf7-phone-mask-field.php     ][ON:true ]  Contact Form 7 - Phone mask field
+PLUGIN [SLUG:disabler/disabler.php                             ][ON:true ]  Disabler
+PLUGIN [SLUG:duplicator/duplicator.php                         ][ON:true ]  Duplicator
+PLUGIN [SLUG:stops-core-theme-and-plugin-updates/main.php      ][ON:true ]  Easy Updates Manager
+PLUGIN [SLUG:enable-media-replace/enable-media-replace.php     ][ON:true ]  Enable Media Replace
+PLUGIN [SLUG:enable-svg-webp-ico-upload/itc-svg-upload.php     ][ON:true ]  Enable SVG, WebP, and ICO Upload
+PLUGIN [SLUG:flamingo/flamingo.php                             ][ON:true ]  Flamingo
+PLUGIN [SLUG:cf7-sweet-alert-popup/cf7simplepopup.php          ][ON:true ]  Popup for CF7 with Sweet Alert
+PLUGIN [SLUG:show-current-template/show-current-template.php   ][ON:true ]  Show Current Template
+PLUGIN [SLUG:clearfy/clearfy.php                               ][ON:true ]  Webcraftic Clearfy – WordPress optimization plugin
+PLUGIN [SLUG:wp-better-permalinks/wp-better-permalinks.php     ][ON:true ]  WP Better Permalinks
+PLUGIN [SLUG:wp-sort-order/index.php                           ][ON:true ]  WP Sort Order
+
+********************************************************************************
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04744]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03373]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+LOG-TIME[DELTA:   0.00668]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00510]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00455]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00006]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00093]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00596]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00004]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00030]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00055]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00351]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'u2835836_arbooz'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'u2835836_arbooz' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.database.service.php[763]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php[60]
+
+LOG-TIME[DELTA:   0.00027]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.03004]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00191]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00574]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00215]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00010]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00015]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "settpm"
+NEW TEMPLATE:default
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03514]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+STEP ACTION: "on-validate"
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03550]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [validate] START
+START TEST "Archive Check" [CLASS: DUPX_Validation_test_archive_check]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Archive Check" RESULT: passed
+
+START TEST "Duplicator importer version" [CLASS: DUPX_Validation_test_importer_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Duplicator importer version" RESULT: skip
+
+START TEST "Overwrite Install" [CLASS: DUPX_Validation_test_owrinstall]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Overwrite Install" RESULT: skip
+
+START TEST "Recovery Point" [CLASS: DUPX_Validation_test_recovery]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Recovery Point" RESULT: skip
+
+START TEST "Package is Importable" [CLASS: DUPX_Validation_test_importable]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Package is Importable" RESULT: skip
+
+START TEST "REST API test" [CLASS: DUPX_Validation_test_rest_api]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "REST API test" RESULT: skip
+
+START TEST "Manual extraction detected" [CLASS: DUPX_Validation_test_manual_extraction]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Manual extraction detected" RESULT: good
+
+START TEST "Database Only" [CLASS: DUPX_Validation_test_dbonly_iswordpress]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database Only" RESULT: skip
+
+START TEST "Package Age" [CLASS: DUPX_Validation_test_package_age]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Package Age" RESULT: good
+
+START TEST "Package Size" [CLASS: DUPX_Validation_test_package_size]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Package Size" RESULT: good
+
+START TEST "Replace PATHs in database" [CLASS: DUPX_Validation_test_replace_paths]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Replace PATHs in database" RESULT: skip
+
+START TEST "Managed hosting supported" [CLASS: DUPX_Validation_test_managed_supported]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Managed hosting supported" RESULT: skip
+
+START TEST "Siteground" [CLASS: DUPX_Validation_test_siteground]
+LOG-TIME[DELTA:   0.00013]  MESSAGE:TEST "Siteground" RESULT: skip
+
+START TEST "Addon Sites" [CLASS: DUPX_Validation_test_addon_sites]
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+LOG-TIME[DELTA:   0.00609]  MESSAGE:TEST "Addon Sites" RESULT: good
+
+START TEST "Wordfence" [CLASS: DUPX_Validation_test_wordfence]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Wordfence" RESULT: good
+
+START TEST "Table prefix of managed hosting" [CLASS: DUPX_Validation_test_managed_tprefix]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Table prefix of managed hosting" RESULT: skip
+
+START TEST "PHP Version Mismatch" [CLASS: DUPX_Validation_test_php_version]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Version Mismatch" RESULT: good
+
+START TEST "PHP Open Base" [CLASS: DUPX_Validation_test_open_basedir]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Open Base" RESULT: good
+
+START TEST "PHP Memory Limit" [CLASS: DUPX_Validation_test_memory_limit]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "PHP Memory Limit" RESULT: good
+
+START TEST "PHP Extensions" [CLASS: DUPX_Validation_test_extensions]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Extensions" RESULT: good
+
+START TEST "PHP Mysqli" [CLASS: DUPX_Validation_test_mysql_connect]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Mysqli" RESULT: passed
+
+START TEST "PHP Tokenizer" [CLASS: DUPX_Validation_test_tokenizer]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Tokenizer" RESULT: passed
+
+START TEST "PHP Timeout" [CLASS: DUPX_Validation_test_timeout]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "PHP Timeout" RESULT: good
+
+START TEST "Disk Space" [CLASS: DUPX_Validation_test_disk_space]
+LOG-TIME[DELTA:   0.00470]  MESSAGE:TEST "Disk Space" RESULT: good
+
+START TEST "Permissions: General" [CLASS: DUPX_Validation_test_iswritable]
+LOG-TIME[DELTA:   0.00389]  MESSAGE:TEST "Permissions: General" RESULT: passed
+
+START TEST "Permissions: Configs Files " [CLASS: DUPX_Validation_test_iswritable_configs]
+LOG-TIME[DELTA:   0.00005]  MESSAGE:TEST "Permissions: Configs Files " RESULT: passed
+
+START TEST "Host Name" [CLASS: DUPX_Validation_test_db_host_name]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Host Name" RESULT: passed
+
+START TEST "Host Connection" [CLASS: DUPX_Validation_test_db_connection]
+LOG-TIME[DELTA:   0.00088]  MESSAGE:TEST "Host Connection" RESULT: passed
+
+START TEST "Database Version" [CLASS: DUPX_Validation_test_db_version]
+LOG-TIME[DELTA:   0.00410]  MESSAGE:TEST "Database Version" RESULT: soft warning
+
+START TEST "Create New Database" [CLASS: DUPX_Validation_test_db_create]
+LOG-TIME[DELTA:   0.00003]  MESSAGE:TEST "Create New Database" RESULT: skip
+
+START TEST "Database Engine Support" [CLASS: DUPX_Validation_test_db_supported_engine]
+LOG-TIME[DELTA:   0.00022]  MESSAGE:TEST "Database Engine Support" RESULT: passed
+
+START TEST "Database GTID Mode" [CLASS: DUPX_Validation_test_db_gtid_mode]
+LOG-TIME[DELTA:   0.00012]  MESSAGE:TEST "Database GTID Mode" RESULT: passed
+
+START TEST "Privileges: User Visibility" [CLASS: DUPX_Validation_test_db_visibility]
+LOG-TIME[DELTA:   0.00014]  MESSAGE:TEST "Privileges: User Visibility" RESULT: passed
+
+START TEST "Manual Table Check" [CLASS: DUPX_Validation_test_db_manual_tabels_count]
+LOG-TIME[DELTA:   0.00002]  MESSAGE:TEST "Manual Table Check" RESULT: skip
+
+START TEST "Multiple WordPress Installs" [CLASS: DUPX_Validation_test_db_multiple_wp_installs]
+LOG-TIME[DELTA:   0.00225]  MESSAGE:TEST "Multiple WordPress Installs" RESULT: passed
+
+START TEST "Privileges: User Resources" [CLASS: DUPX_Validation_test_db_user_resources]
+DB QUERY [ERROR][/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/database/class.db.php:645] MSG: SELECT command denied to user 'u2835836_arbooz'@'localhost' for table 'user'
+	SQL: SELECT max_questions, max_updates, max_connections FROM mysql.user WHERE user = 'u2835836_arbooz' AND host = 'localhost'
+TRACE[1] CLASS___: DUPX_DB::mysqli_query      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.database.service.php[763]
+TRACE[2] CLASS___: DUPX_Validation_database_service->getUserResources FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/database-tests/class.validation.test.db.user.resources.php[28]
+TRACE[3] CLASS___: DUPX_Validation_test_db_user_resources->runTest FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.abstract.item.php[46]
+TRACE[4] CLASS___: DUPX_Validation_abstract_item->test FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.manager.php[232]
+TRACE[5] CLASS___: DUPX_Validation_manager->runTests FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/classes/validation/class.validation.manager.php[205]
+TRACE[6] CLASS___: DUPX_Validation_manager->getValidateData FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/classes/class.ctrl.ajax.php[173]
+TRACE[7] CLASS___: DUPX_Ctrl_ajax::actions    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/classes/class.ctrl.ajax.php[95]
+TRACE[8] CLASS___: DUPX_Ctrl_ajax::controller FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php[60]
+
+LOG-TIME[DELTA:   0.00019]  MESSAGE:TEST "Privileges: User Resources" RESULT: passed
+
+START TEST "Privileges: User Table Access" [CLASS: DUPX_Validation_test_db_user_perms]
+LOG-TIME[DELTA:   0.02146]  MESSAGE:TEST "Privileges: User Table Access" RESULT: passed
+
+START TEST "Privileges: 'Show Variables' Query" [CLASS: DUPX_Validation_test_db_custom_queries]
+LOG-TIME[DELTA:   0.00179]  MESSAGE:TEST "Privileges: 'Show Variables' Query" RESULT: passed
+
+START TEST "Source Database Triggers" [CLASS: DUPX_Validation_test_db_triggers]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Source Database Triggers" RESULT: passed
+
+START TEST "Character Set and Collation Support" [CLASS: DUPX_Validation_test_db_supported_default_charset]
+LOG-TIME[DELTA:   0.00267]  MESSAGE:TEST "Character Set and Collation Support" RESULT: passed
+
+START TEST "Character Set and  Collation Capability" [CLASS: DUPX_Validation_test_db_supported_charset]
+LOG-TIME[DELTA:   0.00009]  MESSAGE:TEST "Character Set and  Collation Capability" RESULT: hard warning
+
+START TEST "Tables Case Sensitivity" [CLASS: DUPX_Validation_test_db_case_sensitive_tables]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Tables Case Sensitivity" RESULT: skip
+
+START TEST "Tables Flagged for Removal or Backup" [CLASS: DUPX_Validation_test_db_affected_tables]
+LOG-TIME[DELTA:   0.00180]  MESSAGE:TEST "Tables Flagged for Removal or Backup" RESULT: passed
+
+START TEST "Prefix too long" [CLASS: DUPX_Validation_test_db_prefix_too_long]
+LOG-TIME[DELTA:   0.00007]  MESSAGE:TEST "Prefix too long" RESULT: passed
+
+START TEST "Database cleanup" [CLASS: DUPX_Validation_test_db_cleanup]
+LOG-TIME[DELTA:   0.00001]  MESSAGE:TEST "Database cleanup" RESULT: skip
+
+
+CTRL PARAMS AFTER VALIDATION
+AJAX ACTION [validate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [proceed_confirm_dialog] START
+AJAX ACTION [proceed_confirm_dialog] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s1] START
+AJAX ACTION [sparam_s1] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [extract] START
+INITIALIZE FILTERS
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+********************************************************************************
+* DUPLICATOR LITE: Install-Log
+* STEP-1 START @ 09:55:19
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+INSTALL TYPE________: single site
+BLOG NAME___________: "site"
+HOME URL NEW________: "http://arbooz.keytrux.ru"
+SITE URL NEW________: "http://arbooz.keytrux.ru"
+CONTENT URL NEW_____: "http://arbooz.keytrux.ru/wp-content"
+UPLOAD URL NEW______: "http://arbooz.keytrux.ru/wp-content/uploads"
+PLUGINS URL NEW_____: "http://arbooz.keytrux.ru/wp-content/plugins"
+MUPLUGINS URL NEW___: "http://arbooz.keytrux.ru/wp-content/mu-plugins"
+HOME PATH NEW_______: "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+SITE PATH NEW_______: "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+CONTENT PATH NEW____: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content"
+UPLOAD PATH NEW_____: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/uploads"
+PLUGINS PATH NEW____: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins"
+MUPLUGINS PATH NEW__: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/mu-plugins"
+ARCHIVE ACTION______: "donothing"
+SKIP WP FILES_______: "none"
+ARCHIVE ENGINE______: "ziparchivechunking"
+SET DIR PERMS_______: true
+DIR PERMS VALUE_____: 0755
+SET FILE PERMS______: true
+FILE PERMS VALUE____: 0644
+SAFE MODE___________: 0
+LOGGING_____________: 1
+ZIP THROTTLING______: false
+WP CONFIG___________: "modify"
+HTACCESS CONFIG_____: "new"
+OTHER CONFIG________: "new"
+FILE TIME___________: "current"
+********************************************************************************
+
+REMOVE FILTERS
+	DIR : "/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer"
+	FILE: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wppack_[HASH]_20250513095100_installer-backup.php"
+	FILE: "/var/www/u2835836/data/www/arbooz.keytrux.ru/wppack_[HASH]_20250513095100_archive.zip"
+	FILE: "/var/www/u2835836/data/www/arbooz.keytrux.ru/installer.php"
+	FILE: "/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer-bootlog__19a2bda-13095100.txt"
+EXTRACTION FILTERS
+	DIR : "dup-installer"
+	FILE: "wppack_[HASH]_20250513095100_installer-backup.php"
+--------------------------------------
+
+
+EXTRACTION: ZIP CHUNKING >>> START
+MAINTENANCE MODE ENABLE
+BEFORE EXTRACION ACTIONS
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> START
+
+*** RESET CONFIG FILES IN CURRENT HOSTING >>> END
+MAINTENANCE MODE ENABLE
+
+*** CREATE FOLDER AND PERMISSION PREPARE
+FOLDER PREPARE DONE
+ARCHIVE OFFSET 0
+FILE EXTRACTION: done processing last file in list of 7632
+
+EXTRACTION: ZIP CHUNKING >>> DONE
+
+EXTRACTION COMPLETE @ 09:55:20 - RUNTIME: 1.5907 sec. - Files processed: 7,025 of 7,025
+AJAX ACTION [extract] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04872]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s2] START
+AJAX ACTION [sparam_s2] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [dbinstall] START
+ADD PREFIX META MAP ID 0 wp_
+
+
+
+********************************************************************************
+* DUPLICATOR LITE: INSTALL-LOG
+* STEP-2 START @ 09:55:23
+* NOTICE: Do NOT post to public sites or forums!!
+********************************************************************************
+USER INPUTS
+DB ENGINE___________: "chunk"
+VIEW MODE___________: "basic"
+DB ACTION___________: "empty"
+DB HOST_____________: "**OBSCURED**"
+DB NAME_____________: "**OBSCURED**"
+DB PASS_____________: "**OBSCURED**"
+DB PORT_____________: "**OBSCURED**"
+USER MODE___________: "overwrite"
+TABLE PREFIX________: "wp_"
+MYSQL MODE__________: "CUSTOM"
+MYSQL MODE OPTS_____: ""
+CHARSET_____________: "utf8mb4"
+COLLATE_____________: ""
+CUNKING_____________: true
+VIEW CREATION_______: true
+STORED PROCEDURE____: true
+FUNCTIONS___________: true
+REMOVE DEFINER______: false
+SPLIT CREATES_______: true
+--------------------------------------
+TABLES
+--------------------------------------
+TABLE "wp_commentmeta"__________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_commentmeta]
+TABLE "wp_comments"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_comments]
+TABLE "wp_duplicator_packages"__________________________[ROWS:       2] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_packages]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:       5] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_entities]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_duplicator_pro_packages]
+TABLE "wp_eum_logs"_____________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_eum_logs]
+TABLE "wp_links"________________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_links]
+TABLE "wp_options"______________________________________[ROWS:     300] [EXTRACT|REPLACE] [INST NAME: wp_options]
+TABLE "wp_postmeta"_____________________________________[ROWS:      57] [EXTRACT|REPLACE] [INST NAME: wp_postmeta]
+TABLE "wp_posts"________________________________________[ROWS:      13] [EXTRACT|REPLACE] [INST NAME: wp_posts]
+TABLE "wp_term_relationships"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_term_relationships]
+TABLE "wp_term_taxonomy"________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_term_taxonomy]
+TABLE "wp_termmeta"_____________________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_termmeta]
+TABLE "wp_terms"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_terms]
+TABLE "wp_usermeta"_____________________________________[ROWS:      53] [EXTRACT|REPLACE] [INST NAME: wp_usermeta]
+TABLE "wp_users"________________________________________[ROWS:       1] [EXTRACT|REPLACE] [INST NAME: wp_users]
+TABLE "wp_yoast_indexable"______________________________[ROWS:       6] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:       3] [EXTRACT|REPLACE] [INST NAME: wp_yoast_indexable_hierarchy]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:      26] [EXTRACT|REPLACE] [INST NAME: wp_yoast_migrations]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_yoast_primary_term]
+TABLE "wp_yoast_prominent_words"________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_yoast_prominent_words]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:       0] [EXTRACT|REPLACE] [INST NAME: wp_yoast_seo_links]
+********************************************************************************
+
+--------------------------------------
+DATABASE-ENVIRONMENT
+--------------------------------------
+MYSQL VERSION:	This Server: 8.0.25 -- Build Server: 8.0.30
+FILE SIZE:	dup-database__[HASH].sql (385.46KB)
+TIMEOUT:	5000
+MAXPACK:	33554432
+SQLMODE-GLOBAL:	NO_ENGINE_SUBSTITUTION
+SQLMODE-SESSION:
+DROP ALL TABLES
+--------------------------------------
+DATABASE RESULTS
+--------------------------------------
+QUERY FIXES
+GLOBAL RULES ADDED: PROC AND VIEWS
+GLOBAL RULES ADDED: INVALID CHARSETS
+GLOBAL RULES ADDED: INVALID COLLATIONS
+
+QUERY FIXES GLOBAL RULES
+	SEARCH  => /^(\s*(?:\/\*!\d+\s)?\s*(?:CREATE.+)?DEFINER\s*=)([^\*\s]+)(.*)$/m
+	REPLACE => $1`u2835836_arbooz`@`localhost`$3
+
+	SEARCH  => /^(\s*CREATE.+(?:PROCEDURE|FUNCTION)[\s\S]*)(BEGIN)([\s\S]*)$/
+	REPLACE => $1SQL SECURITY INVOKER
+$2$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)((?:utf8mb3))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3
+
+	SEARCH  => /(^.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?\s.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4$3utf8mb4_0900_ai_ci$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?\s.*(?:CHARSET|CHARACTER SET)\s*[\s=]\s*[`'"]?)([^`'"\s;,]+)([`'"]?.*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3utf8mb4$5
+
+	SEARCH  => /(^.*COLLATE\s*[\s=]\s*[`'"]?)((?:utf8mb3_general_ci))([`'"]?[\s;,].*$)/m
+	REPLACE => $1utf8mb4_0900_ai_ci$3
+
+--------------------------------------
+** DATABASE CHUNK install start
+--------------------------------------
+DATABASE CHUNK SEEK POSITION: 0
+Auto Commit set to false successfully
+NO TABLE TO SKIP
+Auto Commit set to true successfully
+--------------------------------------
+** DATABASE CHUNK install end
+--------------------------------------
+ERRORS FOUND:	0
+DROPPED TABLES:	0
+RENAMED TABLES:	0
+QUERIES RAN:	200
+
+TABLES ROWS IN DATABASE AFTER EXTRACTION
+
+TABLE "wp_commentmeta"__________________________________[ROWS:     0]
+TABLE "wp_comments"_____________________________________[ROWS:     0]
+TABLE "wp_duplicator_packages"__________________________[ROWS:     2]
+TABLE "wp_duplicator_pro_entities"______________________[ROWS:     5]
+TABLE "wp_duplicator_pro_packages"______________________[ROWS:     0]
+TABLE "wp_eum_logs"_____________________________________[ROWS:     1]
+TABLE "wp_links"________________________________________[ROWS:     0]
+TABLE "wp_options"______________________________________[ROWS:   299]
+TABLE "wp_postmeta"_____________________________________[ROWS:    57]
+TABLE "wp_posts"________________________________________[ROWS:    13]
+TABLE "wp_term_relationships"___________________________[ROWS:     0]
+TABLE "wp_term_taxonomy"________________________________[ROWS:     1]
+TABLE "wp_termmeta"_____________________________________[ROWS:     0]
+TABLE "wp_terms"________________________________________[ROWS:     1]
+TABLE "wp_usermeta"_____________________________________[ROWS:    53]
+TABLE "wp_users"________________________________________[ROWS:     1]
+TABLE "wp_yoast_indexable"______________________________[ROWS:     6]
+TABLE "wp_yoast_indexable_hierarchy"____________________[ROWS:     3]
+TABLE "wp_yoast_migrations"_____________________________[ROWS:    26]
+TABLE "wp_yoast_primary_term"___________________________[ROWS:     0]
+TABLE "wp_yoast_prominent_words"________________________[ROWS:     0]
+TABLE "wp_yoast_seo_links"______________________________[ROWS:     0]
+
+INSERT DATA RUNTIME: 0.3916 sec.
+STEP-2 COMPLETE @ 09:55:23 - RUNTIME: 0.3916 sec.
+AJAX ACTION [dbinstall] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.03081]  MESSAGE:END RENDER PAGE
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [sparam_s3] START
+AJAX ACTION [sparam_s3] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [webupdate] START
+
+====================================
+SET SEARCH AND REPLACE LIST INSTALL TYPE single site
+====================================
+SEARCH ITEM[T:path |P:12] SEARCH: D:/OSPanel/domains/arbooz REPLACE: /var/www/u2835836/data/www/arbooz.keytrux.ru [SCOPE: ALL]
+SEARCH ITEM[T:urlnd|P:12] SEARCH: http://arbooz REPLACE: http://arbooz.keytrux.ru [SCOPE: ALL]
+CHUNK LOAD DATA: IS NULL 
+CHUNK ACTION: CURRENT [start][][]
+
+
+********************************************************************************
+DUPLICATOR LITE: INSTALL-LOG
+STEP-3 START @ 09:55:27
+NOTICE: Do NOT post to public sites or forums
+********************************************************************************
+CHARSET SERVER:	"utf8mb4"
+CHARSET CLIENT:	"utf8mb4"
+********************************************************************************
+OPTIONS:
+SKIP PATH REPLACE_____: false
+DISALLOW_FILE_EDIT____: [value = ], [inWpConfig = ]
+DISALLOW_FILE_MODS____: [value = ], [inWpConfig = ]
+AUTOSAVE_INTERVAL_____: [value = 60], [inWpConfig = ]
+WP_POST_REVISIONS_____: [value = 1], [inWpConfig = ]
+FORCE_SSL_ADMIN_______: [value = ], [inWpConfig = ]
+WP_AUTO_UPDATE_CORE___: [value = false], [inWpConfig = ]
+WP_CACHE______________: [value = ], [inWpConfig = ]
+WPCACHEHOME___________: [value = /], [inWpConfig = ]
+WP_DEBUG______________: [value = ], [inWpConfig = 1]
+WP_DEBUG_LOG__________: [value = ], [inWpConfig = ]
+WP_DEBUG_DISPLAY______: [value = 1], [inWpConfig = ]
+WP_DISABLE_FATAL_ERROR_HANDLER: [value = ], [inWpConfig = ]
+SCRIPT_DEBUG__________: [value = ], [inWpConfig = ]
+CONCATENATE_SCRIPTS___: [value = ], [inWpConfig = ]
+SAVEQUERIES___________: [value = ], [inWpConfig = ]
+ALTERNATE_WP_CRON_____: [value = ], [inWpConfig = ]
+DISABLE_WP_CRON_______: [value = ], [inWpConfig = ]
+WP_CRON_LOCK_TIMEOUT__: [value = 60], [inWpConfig = ]
+COOKIE_DOMAIN_________: [value = ], [inWpConfig = ]
+WP_MEMORY_LIMIT_______: [value = 40M], [inWpConfig = ]
+WP_MAX_MEMORY_LIMIT___: [value = 1536M], [inWpConfig = ]
+WP_TEMP_DIR___________: [value = ], [inWpConfig = ]
+********************************************************************************
+
+********************************************************************************
+CHUNK PARAMS:
+maxIteration__________: 0
+timeOut_______________: 5000
+throttling____________: 2
+rowsPerPage___________: 1000
+********************************************************************************
+
+CHUNK ACTION: CURRENT [cleanup_trans][][]
+[PHP ERR][E_WARNING] MSG:foreach() argument must be of type array|object, string given [CODE:2|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Deploy/Database/DbCleanup.php|LINE:95]
+CLEAN OPTIONS [wp_options]
+	`option_name` = "duplicator_plugin_data_stats"
+	`option_name` LIKE "\_transient%"
+	`option_name` LIKE "\_site\_transient%"
+DATABASE OPTIONS DELETED [ROWS:    20]
+CHUNK ACTION: CURRENT [cleanup_extra][][]
+CLEANUP EXTRA
+	- SKIP DROP VIEWS
+	- SKIP DROP PROCS
+	- SKIP DROP FUNCS
+CHUNK ACTION: CURRENT [cleanup_packages][][]
+EMPTY PACKAGES TABLE
+CLEAN PACKAGES
+DATABASE PACKAGE DELETED [ROWS:     2]
+CHUNK ACTION: CURRENT [init][][]
+
+EVALUATE TABLE: "wp_commentmeta"__________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_comments"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_packages"__________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_duplicator_pro_entities"______________________[ROWS:     5][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_duplicator_pro_entities][0]
+
+EVALUATE TABLE: "wp_duplicator_pro_packages"______________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_eum_logs"_____________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_eum_logs][0]
+
+EVALUATE TABLE: "wp_links"________________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_options"______________________________________[ROWS:   279][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_options][0]
+
+EVALUATE TABLE: "wp_postmeta"_____________________________________[ROWS:    57][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_postmeta][0]
+
+EVALUATE TABLE: "wp_posts"________________________________________[ROWS:    13][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_posts][0]
+
+EVALUATE TABLE: "wp_term_relationships"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_term_taxonomy"________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_term_taxonomy][0]
+
+EVALUATE TABLE: "wp_termmeta"_____________________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_terms"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_terms][0]
+
+EVALUATE TABLE: "wp_usermeta"_____________________________________[ROWS:    53][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_usermeta][0]
+
+EVALUATE TABLE: "wp_users"________________________________________[ROWS:     1][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_users][0]
+
+EVALUATE TABLE: "wp_yoast_indexable"______________________________[ROWS:     6][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_indexable][0]
+
+EVALUATE TABLE: "wp_yoast_indexable_hierarchy"____________________[ROWS:     3][PG:   1][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_migrations"_____________________________[ROWS:    26][PG:   1][SCAN:text columns]
+	--- BASE STRINGS ---
+	SEARCH[path ]  1:"D:/OSPanel/domains/arbooz" =======================> "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+	SEARCH[urlnd]  2:"http://arbooz" ===================================> "http://arbooz.keytrux.ru"
+	CHUNK ACTION: CURRENT [search_replace][wp_yoast_migrations][0]
+
+EVALUATE TABLE: "wp_yoast_primary_term"___________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_prominent_words"________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+
+EVALUATE TABLE: "wp_yoast_seo_links"______________________________[ROWS:     0][PG:   0][SCAN:no columns  ]
+--------------------------------------
+SCANNED:	Tables:22 	|	 Rows:443 	|	 Cells:2273 
+UPDATED:	Tables:7 	|	 Rows:24 	|	 Cells:24 
+ERRORS:		0 
+RUNTIME:	0.180300 sec
+CHUNK ACTION: CURRENT [rem_maintenance][][]
+
+====================================
+REMOVE MAINTENANCE MODE
+====================================
+MAINTENANCE MODE DISABLE
+CHUNK ACTION: CURRENT [config_update][][]
+SET CONFIG FILES
+Retained original entry wpconfig target:/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php
+New htaccess file created:/var/www/u2835836/data/www/arbooz.keytrux.ru/.htaccess
+
+====================================
+CONFIGURATION FILE UPDATES
+====================================
+	UPDATE ABSPATH "__DIR__ . '/'"
+	UPDATE WP_PLUGIN_DIR "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins"
+	UPDATE WPMU_PLUGIN_DIR "/var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/mu-plugins"
+	UPDATE DB_NAME ""u2835836_arbooz""
+	UPDATE DB_USER "** OBSCURED **"
+	UPDATE DB_PASSWORD "** OBSCURED **"
+	UPDATE DB_HOST ""localhost""
+	UPDATE DB_CHARSET "utf8mb4"
+	UPDATE DB_COLLATE ""
+	WP CONFIG UPDATE WP_DEBUG "false"
+	
+*** UPDATED WP CONFIG FILE ***
+
+====================================
+HTACCESS UPDATE
+====================================
+
+WEB SERVER CONFIGURATION FILE UPDATED:
+- Preparing .htaccess file with basic setup.
+HTACCESS FILE - Successfully updated the .htaccess file setting.
+
+====================================
+INDEX.PHP UPDATE
+====================================
+INDEX.PHP updated with new blog header "__DIR__ . '/wp-blog-header.php'"
+
+CHUNK ACTION: CURRENT [gen_update][][]
+
+====================================
+GENERAL UPDATES
+====================================
+
+====================================
+MANAGE PLUGINS
+====================================
+CHUNK ACTION: CURRENT [gen_clean][][]
+
+====================================
+GENERAL CLEANUP
+====================================
+RESET ALL USERS SESSION TOKENS
+MIGRATION INFO SET
+CHUNK ACTION: CURRENT [create_admin][][]
+
+====================================
+RESET USERS PASSWORD
+====================================
+CHUNK ACTION: CURRENT [notice_test][][]
+
+====================================
+CHECK FOR INDEX.HTML
+====================================
+NO INDEX.HTML WAS FOUND
+
+====================================
+NOTICES TEST
+====================================
+No General Notices Found
+
+CHUNK ACTION: CURRENT [cleanup_tmp_files][][]
+
+====================================
+CLEANUP TMP FILES
+====================================
+CHUNK ACTION: CURRENT [set_files_perms][][]
+
+====================================
+SET PARAMS PERMISSION
+====================================
+
+*** SET FOLDER PERMISSION AFTER EXTRACTION
+--------------------------------------
+PATHS MAPPING : "/var/www/u2835836/data/www/arbooz.keytrux.ru"
+--------------------------------------
+SET FOLDER PERMISSION DONE
+CHUNK ACTION: CURRENT [final_report][][]
+
+====================================
+FINAL REPORT NOTICES
+====================================
+
+STEP-3 COMPLETE @ 09:55:27 - RUNTIME: 0.2695 sec. 
+
+
+AJAX ACTION [webupdate] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalpre] START
+AJAX ACTION [finalpre] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+
+-------------------------
+AJAX ACTION [finalafter] START
+AJAX ACTION [finalafter] SUCCESS
+-------------------------
+
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Core/Bootstrap.php:71] RESET TIME
+[PHP ERR][E_NOTICE] MSG:ob_end_clean(): Failed to delete buffer. No buffer to delete [CODE:8|FILE:/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/main.installer.php|LINE:88]
+
+====================================
+FINAL REPORT NOTICES LIST
+====================================
+-----------------------
+[NOTICE] Warnings or notices on WordPress front-end tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Entities\Paths::$basename is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/entities/class-factory-paths.php[29]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Entities\Paths->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[275]
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Entities\Paths::$migrations is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/entities/class-factory-paths.php[31]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Entities\Paths->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[275]
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_Plugin::$plugin_slug is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[278]
+	--- TRACE ---
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_basename is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[77]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_main_file is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[78]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_absolute_path is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[79]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WDN_ConfigHideNotices::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/includes/3rd-party/class-clearfy-plugin.php[77]
+	CLASS___: WDN_Plugin->globalScripts     FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/includes/3rd-party/class-clearfy-plugin.php[38]
+	CLASS___: WDN_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/clearfy.php[44]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCTR_ConfigurateCyrlitera::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/includes/3rd-party/class-clearfy-plugin.php[86]
+	CLASS___: WCTR_Plugin->global_scripts   FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/includes/3rd-party/class-clearfy-plugin.php[40]
+	CLASS___: WCTR_Plugin->__construct      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/clearfy.php[41]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WGA_ConfigGACache::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/includes/3rd-party/class-clearfy-plugin.php[93]
+	CLASS___: WGA_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/includes/3rd-party/class-clearfy-plugin.php[41]
+	CLASS___: WGA_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/clearfy.php[44]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WGZ_Assets_Manager_Public::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/classes/class-assets-manager-global.php[32]
+	--- TRACE ---
+	CLASS___: WGZ_Assets_Manager_Public->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/3rd-party/class-clearfy-plugin.php[98]
+	CLASS___: WGZ_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/3rd-party/class-clearfy-plugin.php[40]
+	CLASS___: WGZ_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/clearfy.php[42]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigPerformance::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-performance.php[22]
+	CLASS___: WCL_ConfigPerformance->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[258]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigGooglePerformance::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-google-performance.php[21]
+	CLASS___: WCL_ConfigGooglePerformance->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[259]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigPrivacy::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-privacy.php[23]
+	CLASS___: WCL_ConfigPrivacy->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[260]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigSecurity::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-security.php[21]
+	CLASS___: WCL_ConfigSecurity->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[261]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigSeo::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-seo.php[22]
+	CLASS___: WCL_ConfigSeo->__construct    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[262]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigAdvanced::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-advanced.php[20]
+	CLASS___: WCL_ConfigAdvanced->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[113]
+	CLASS___: WCL_Plugin->plugins_loaded    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-blog-header.php[13]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/index.php[17]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WHTM_Minify_HTML::$_html is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/html-minify/includes/classes/ext/php/class-minify-html.php[71]
+	--- TRACE ---
+	CLASS___: WHTM_Minify_HTML->__construct FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/html-minify/includes/classes/ext/php/class-minify-html.php[43]
+	CLASS___: WHTM_Minify_HTML::minify      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/html-minify/includes/classes/class-html.php[91]
+	CLASS___: WHTM_PluginHTML->minify       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/html-minify/includes/classes/class-main.php[263]
+	CLASS___: WHTM_PluginMain->endBuffering FILE: [-1]
+	FUNCTION: ob_clean                      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Utils/Tests/WP/TestsErrorHandler.php[182]
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::obCleanAllFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/src/Utils/Tests/WP/TestsErrorHandler.php[151]
+	CLASS___: Duplicator\Installer\Utils\Tests\WP\TestsErrorHandler::shutdownFILE: [-1]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+-----------------------
+[NOTICE] Warnings or notices on WordPress backend tests!
+	SECTIONS: general
+	LONG MSG: SCRIPT FILE TEST: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Entities\Paths::$basename is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/entities/class-factory-paths.php[29]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Entities\Paths->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[275]
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Entities\Paths::$migrations is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/entities/class-factory-paths.php[31]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Entities\Paths->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[275]
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_Plugin::$plugin_slug is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-base.php[278]
+	--- TRACE ---
+	CLASS___: Wbcr_Factory469_Base->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[116]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_basename is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[77]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_main_file is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[78]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WBCR\Factory_469\Updates\Github_Repository::$plugin_absolute_path is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/repositories/class-factory-github.php[79]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_469\Updates\Github_Repository->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[304]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->get_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[135]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->set_repositoryFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/updates/class-factory-upgrader.php[122]
+	CLASS___: WBCR\Factory_469\Updates\Upgrader->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[876]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_updatesFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[138]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WDN_ConfigHideNotices::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/includes/3rd-party/class-clearfy-plugin.php[77]
+	CLASS___: WDN_Plugin->globalScripts     FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/includes/3rd-party/class-clearfy-plugin.php[38]
+	CLASS___: WDN_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/disable-admin-notices/clearfy.php[44]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCTR_ConfigurateCyrlitera::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/includes/3rd-party/class-clearfy-plugin.php[86]
+	CLASS___: WCTR_Plugin->global_scripts   FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/includes/3rd-party/class-clearfy-plugin.php[40]
+	CLASS___: WCTR_Plugin->__construct      FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/cyrlitera/clearfy.php[41]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WGA_ConfigGACache::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/includes/3rd-party/class-clearfy-plugin.php[93]
+	CLASS___: WGA_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/includes/3rd-party/class-clearfy-plugin.php[41]
+	CLASS___: WGA_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/ga-cache/clearfy.php[44]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WGZ_Assets_Manager_Public::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/classes/class-assets-manager-global.php[32]
+	--- TRACE ---
+	CLASS___: WGZ_Assets_Manager_Public->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/3rd-party/class-clearfy-plugin.php[98]
+	CLASS___: WGZ_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/includes/3rd-party/class-clearfy-plugin.php[40]
+	CLASS___: WGZ_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/components/assets-manager/clearfy.php[42]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[740]
+	CLASS___: Wbcr_Factory469_Plugin->init_plugin_componentsFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/core/includes/class-factory-plugin-abstract.php[144]
+	CLASS___: Wbcr_Factory469_Plugin->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[38]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigPerformance::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-performance.php[22]
+	CLASS___: WCL_ConfigPerformance->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[258]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigGooglePerformance::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-google-performance.php[21]
+	CLASS___: WCL_ConfigGooglePerformance->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[259]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigPrivacy::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-privacy.php[23]
+	CLASS___: WCL_ConfigPrivacy->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[260]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigSecurity::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-security.php[21]
+	CLASS___: WCL_ConfigSecurity->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[261]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigSeo::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-seo.php[22]
+	CLASS___: WCL_ConfigSeo->__construct    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[262]
+	CLASS___: WCL_Plugin->global_scripts    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[64]
+	CLASS___: WCL_Plugin->__construct       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/clearfy.php[192]
+	FUNCTION: include_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[462]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+E_DEPRECATED Creation of dynamic property WCL_ConfigAdvanced::$plugin is deprecated
+	FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/libs/factory/templates/includes/class-configurate.php[26]
+	--- TRACE ---
+	CLASS___: WBCR\Factory_Templates_118\Configurate->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/classes/class.configurate-advanced.php[20]
+	CLASS___: WCL_ConfigAdvanced->__constructFILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/plugins/clearfy/includes/class.plugin.php[113]
+	CLASS___: WCL_Plugin->plugins_loaded    FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php[310]
+	CLASS___: WP_Hook->apply_filters        FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/class-wp-hook.php[334]
+	CLASS___: WP_Hook->do_action            FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-includes/plugin.php[517]
+	FUNCTION: do_action                     FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-settings.php[495]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-config.php[99]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-load.php[50]
+	FUNCTION: require                       FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-login.php[12]
+	FUNCTION: require_once                  FILE: /var/www/u2835836/data/www/arbooz.keytrux.ru/wp-content/wp_test_script_19a2bda-13095100.php[117]
+-----
+For solutions to these issues see the online FAQs 
+https://duplicator.com/knowledge-base/ 
+
+
+====================================
+LOG-TIME[/var/www/u2835836/data/www/arbooz.keytrux.ru/dup-installer/ctrls/ctrl.base.php:227][DELTA:   0.04326]  MESSAGE:END RENDER PAGE

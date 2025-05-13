@@ -1,0 +1,760 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: "Proxima Nova", Arial, sans-serif;
+    box-sizing: border-box;
+}
+
+html, body {
+    overflow-x: hidden;
+}
+
+.container
+{
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.section-calculator
+{
+    padding: 50px 0;
+}
+
+.calculator-wrapper
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.calculator
+{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 593px;
+
+}
+
+h1
+{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+.custom-select {
+    position: relative;
+    width: 100%;
+    max-width: 593px; 
+}
+
+.custom-select label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #636363;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.custom-select select {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 100px;
+    padding: 25px 35px 10px 20px;
+    font-size: 16px;
+    border: 1px solid #E0E7E9;
+    border-radius: 4px;
+    background-color: #FAFAFA;
+    cursor: pointer;
+    background-image: none;
+    -webkit-text-fill-color: initial;
+}
+
+.custom-select::after {
+    content: " ";
+    background: url(/wp-content/themes/CustomTheme/assets/img/icons/select-arrow.svg) no-repeat center center / contain;
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    pointer-events: none;
+    z-index: 1;
+}
+
+.custom-select select:focus {
+    outline: none;
+}
+
+.custom-select select option {
+    padding: 8px;
+    font-size: 14px;
+}
+
+.range-container
+{
+    width: 100%;
+    max-width: 593px;
+}
+
+.range-output
+{
+    height: 100px;
+    position: relative;
+    display: block;
+    text-align: left;
+    background-color: #FAFAFA;
+    border: 1px solid #E0E7E9;
+    border-radius: 4px;
+}
+
+.range-output label
+{
+    color: #0000004D;
+    font-size: 14px;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+#rangevalue
+{
+    display: block;
+    font-size: 20px;
+    color: #636363;
+    position: absolute;
+    top: 45px;
+    left: 20px;
+}
+
+.range
+{
+    display: block;
+}
+
+input[type="range"] {
+    width: 100%;
+    height: 4px;
+    background: #FAFAFA;
+    border: none;
+    border-radius: 5px;
+    accent-color: #FFDD21;
+    cursor: pointer;
+    z-index: 10;
+    position: relative;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: linear-gradient(#FFDD21, #FFDD21);
+    background-size: 40% 100%;
+    background-repeat: no-repeat;
+    margin-top: -5px;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 28px;
+    height: 28px;
+    background: radial-gradient(circle at center, #FFDD21 0%, #FFDD21 6px, transparent 6px, transparent 100%), white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+input[type="range"]::-moz-range-thumb {
+    width: 28px;
+    height: 28px;
+    background: radial-gradient(circle at center, #FFDD21 0%, #FFDD21 6px, transparent 6px, transparent 100%), white;
+    border-radius: 50%;
+    cursor: pointer;
+    position: relative;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
+}
+
+.label-wrapper
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.label-wrapper label
+{
+    font-size: 14px;
+    color: #0000004D;
+}
+
+/* Стили для контейнера */
+.switcher {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Расстояние между кнопками */
+    position: relative; /* Для позиционирования подчеркивания */
+    width: 100%;
+    max-width: 593px;
+}
+
+/* Стили для кнопок */
+.switcher button {
+    padding: 10px 20px;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    transition: color 0.3s ease; /* Плавное изменение цвета */
+    color: #6F6F6F;
+    position: relative;
+}
+
+/* Стиль для активной кнопки */
+.switcher button.active {
+    color: #000000; /* Цвет активной кнопки */
+}
+
+/* Подчеркивание под активной кнопкой */
+.switcher button.active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Ширина зависит от активной кнопки */
+    height: 3px;
+    background-color: #00CFCC; /* Цвет подчеркивания */
+    transition: transform 0.3s ease, width 0.3s ease; /* Плавное перемещение */
+}
+
+
+/* Стили для контейнера */
+.brands {
+    display: flex;
+    flex-direction: column;
+}
+
+.brands label
+{
+    color: #636363;
+    font-size: 20px;
+}
+
+.brand-buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px; /* Расстояние между кнопками */
+    margin-top: 10px;
+}
+
+/* Стили для кнопок */
+.brand-buttons button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 87px; /* Размер кнопки */
+    height: 87px; /* Размер кнопки */
+    border: none;
+    background-color: transparent; /* Цвет фона кнопки */
+    cursor: pointer;
+    transition: all 0.3s ease; /* Плавное изменение */
+    margin: 0 auto;
+}
+
+/* Стили для SVG */
+.brand-buttons button svg {
+    width: 100%; /* Занимает всю ширину кнопки */
+    height: 100%; /* Занимает всю высоту кнопки */
+}
+
+/* Стили для текста */
+.brand-buttons button span {
+    font-size: 14px;
+    color: #00000080;
+    margin-top: 5px; /* Отступ между иконкой и текстом */
+}
+
+/* Активное состояние */
+.brand-buttons button.active span{
+    color: #000000;
+}
+
+.brand-buttons button.active svg circle,
+.brand-buttons button.active svg ellipse {
+    fill: #5FADE0; /* или любой другой цвет */
+}
+
+.brand-buttons button.active svg path,
+.brand-buttons button.active svg rect,
+.brand-buttons button.active svg line,
+.brand-buttons button.active svg circle
+{
+    stroke: white; /* или любой другой цвет */
+}
+
+.brand-buttons img
+{
+    width: 100%;
+    max-width: 63px;
+}
+
+
+.additional-services {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+.additional-services label
+{
+    color: #636363;
+    font-size: 20px;
+}
+
+  .services
+  {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px 10px;
+  }
+  
+  .service {
+    text-align: center;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+  }
+
+  
+  .service p {
+    font-size: 14px;
+    color: #00000080;
+  }
+
+  .service.active p{
+    color: #000000;
+}
+
+.service.active svg circle,
+.service.active svg ellipse {
+    fill: #5FADE0; /* или любой другой цвет */
+}
+
+.service.active svg path,
+.service.active svg rect,
+.service.active svg line,
+.service.active svg circle
+{
+    stroke: white; /* или любой другой цвет */
+}
+
+.order
+{
+    width: 100%;
+}
+
+.order-wrapper
+{
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: 0px 14px 94px rgba(2, 47, 46, 0.06);
+    padding: 15px;
+
+
+}
+
+.card
+{
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-direction: column;
+    padding: 30px 0;
+    border-bottom: 1px solid #E0E7E9;
+}
+
+.card label
+{
+    font-size: 20px;
+    color: #636363;
+}
+
+.card img
+{
+    width: 100%;
+    max-width: 518px;
+}
+
+.card a
+{
+    font-size: 20px;
+    color: #636363;
+    text-decoration: none;
+    border-bottom: 1px solid #636363;
+    position: relative;
+}
+
+.card a::before
+{
+    content: '';
+    position: absolute;
+    left: -30px;
+    width: 21px;
+    height: 21px;
+    background-image: url(/wp-content/themes/CustomTheme/assets/img/icons/azs.svg);
+    background-repeat: no-repeat;
+}
+
+.promo-action
+{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    flex-direction: column;
+    padding: 30px 0;
+    border-bottom: 1px solid #E0E7E9;
+}
+
+.promo-action p
+{
+    font-size: 24px;
+    color: #000000;
+}
+
+.actions {
+    display: flex;
+    gap: 30px;
+}
+
+.action {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    max-width: 110px;
+    text-align: center;
+    gap: 15px;
+}
+
+.circle {
+    width: 110px;
+    height: 110px;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.action.selected .circle{
+    background-color: #FFDD21; /* Желтый цвет для выбранного */
+}
+
+.action.selected .label {
+    color: #000000;
+}
+
+.checkmark {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    width: 33px;
+    height: 33px;
+    background-color: #00CFCC; /* Зелёный чекбокс */
+    border-radius: 50%;
+    display: none;
+}
+
+.checkmark::after {
+    content: '';
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    width: 100%;
+    height: 100%;
+    background-image: url(/wp-content/themes/CustomTheme/assets/img/icons/check-mark.svg);
+    background-repeat: no-repeat;
+}
+
+.action.selected .checkmark {
+    display: block;
+}
+
+.percentage {
+    font-size: 25px;
+    font-weight: 500;
+    color: #000;
+}
+
+.label {
+    margin-top: 10px;
+    font-size: 16px;
+    color: #00000080;
+}
+
+.savings
+{
+    padding: 30px 0 70px;
+}
+
+.savings .container
+{
+    width: 70%;
+    text-align: center;
+}
+
+.saving-text
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.saving-title
+{
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.saving-text label
+{
+    color: #636363;
+    font-size: 12px;
+}
+
+.saving-p
+{
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.custom-button {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #FFDD21; /* Желтый цвет */
+    color: #000; /* Цвет текста */
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px; /* Скругленные углы */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 530px;
+    height: 70px;
+    box-shadow: 0px 14px 24px rgba(255, 221, 33, 0.4);
+  }
+
+
+
+  .op-form-request
+  {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 1001;
+    justify-content: center;
+    display: none;
+    overflow: auto;
+}
+
+  .modal-content.request
+  {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow: auto;
+    padding: 100px 0 30px 0;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 35px;
+    max-width: 711px;
+    background-color: #FFFFFF;
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+    max-height: 866px;
+    gap: 50px;
+}
+
+.modal-content .close-button {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.modal-overlay
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    display: none;
+    background-color: #00CFCC;
+}
+
+.modal-content.request p
+{
+    width: 100%;
+    max-width: 477px;
+    font-size: 50px;
+    font-weight: 500;
+    text-align: center;
+}
+
+.modal-content.request form
+{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 477px;
+    height: 100%;
+    gap: 20px;
+}
+
+input:focus { outline: none; border: none; }
+
+.modal-content.request input[type="text"]
+{
+    background-color: #FAFAFA;
+    border: 1px solid #E0E7E9;
+    height: 100%;
+    max-height: 79px;
+    padding-left: 20px;
+}
+
+.custom-checkbox
+{
+    margin: 20px 0;
+}
+
+input[type="checkbox"] {
+    appearance: none;
+    width: 27px;
+    height: 27px;
+    border: 1px solid #00CFCC;
+    border-radius: 50%;
+    background-color: transparent;
+    cursor: pointer;
+    position: relative;
+}
+
+.custom-checkbox span
+{
+    vertical-align: super;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+input[type="checkbox"]:checked
+{
+    background-color: #00CFCC;
+}
+
+input[type="checkbox"]:checked::after {
+    content: '';
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    width: 100%;
+    height: 100%;
+    background-image: url(/wp-content/themes/CustomTheme/assets/img/icons/check-mark.svg);
+    background-repeat: no-repeat;
+
+}
+
+.btn-request {
+    display: inline-block;
+    padding: 16px 32px;
+    background-color: #FFDD21; /* Желтый цвет */
+    color: #000; /* Цвет текста */
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 8px; /* Скругленные углы */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 530px;
+    height: 70px;
+    box-shadow: 0px 14px 24px rgba(255, 221, 33, 0.4);
+  }
+
+
+@media screen and (max-width: 1400px) {
+    .savings .container
+    {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 1024px) {
+    .calculator-wrapper
+    {
+           grid-template-columns: 1fr;
+    }
+
+    .savings .container {
+        width: 70%;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .savings .container
+    {
+        width: 100%;
+    }
+
+    .actions
+    {
+        flex-wrap: wrap;
+    }
+
+    .saving-text
+    {
+        grid-template-columns: 1fr;
+        text-align: center;
+        gap: 10px;
+    }
+
+    .modal-content.request
+    {
+        padding: 50px 10px;
+        max-width: 500px;
+        max-height: 600px;
+    }
+
+    .modal-content.request p
+    {
+        font-size: 40px;
+        max-width: unset;
+    }
+
+    .custom-checkbox span
+    {
+        font-size: 14px;
+    }
+
+    .btn-request
+    {
+        font-size: 14px;
+    }
+}

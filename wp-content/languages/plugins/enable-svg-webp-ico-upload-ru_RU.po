@@ -1,0 +1,44 @@
+# Translation of Plugins - Enable SVG, WebP &amp; ICO Upload   - Stable (latest release) in Russian
+# This file is distributed under the same license as the Plugins - Enable SVG, WebP &amp; ICO Upload   - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2023-01-08 10:25:29+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n % 10 == 1 && n % 100 != 11) ? 0 : ((n % 10 >= 2 && n % 10 <= 4 && (n % 100 < 12 || n % 100 > 14)) ? 1 : 2);\n"
+"X-Generator: GlotPress/4.0.0-alpha.3\n"
+"Language: ru\n"
+"Project-Id-Version: Plugins - Enable SVG, WebP &amp; ICO Upload   - Stable (latest release)\n"
+
+#: admin/partials/_settings.php:40
+msgid "Enable ICO Upload"
+msgstr "Включить загрузку ICO"
+
+#: admin/partials/_settings.php:27
+msgid "Enable WebP Upload"
+msgstr "Включить загрузку WebP"
+
+#: admin/partials/_settings.php:14
+msgid "Enable SVG Upload"
+msgstr "Включить загрузку SVG"
+
+#. Author URI of the plugin
+msgid "http://ideastocode.com/"
+msgstr "http://ideastocode.com/"
+
+#. Author of the plugin
+msgid "ideasToCode"
+msgstr "ideasToCode"
+
+#. Description of the plugin
+msgid "This plugin will enable you to upload SVG, WebP & ICO files"
+msgstr "Этот плагин позволит вам загружать файлы SVG, WebP и ICO"
+
+#. Plugin URI of the plugin
+msgid "https://ideastocode.com/plugins/enable-svg-WebP-ico-upload/"
+msgstr "https://ideastocode.com/plugins/enable-svg-WebP-ico-upload/"
+
+#. Plugin Name of the plugin
+msgid "Enable SVG, WebP, and ICO Upload"
+msgstr "Enable SVG, WebP, and ICO Upload"

@@ -1,0 +1,7 @@
+/* Подключение шрифта Proxima Nova */
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('../fonts/Proxima Nova/proximanova_regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
